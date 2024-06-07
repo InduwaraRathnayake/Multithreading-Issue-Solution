@@ -27,7 +27,7 @@ public class RobotArm implements Runnable{
     }
 
     private void doOperation() throws InterruptedException{
-        System.out.printf("Pick up and put the popcorn bag %d in the table\n" , popcorn.getBagNumber());
+        System.out.printf("Pick up the popcorn bag %d from the output bin and place on the table\n" , popcorn.getBagNumber());
         Thread.sleep(500);
     }
 
