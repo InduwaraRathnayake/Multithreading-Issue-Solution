@@ -1,18 +1,5 @@
-## Getting Started
+# Problem Description
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+You are required to simulate a popcorn dispenser. The machine can produce a maximum of three popcorn bags at a time. To guarantee high availability, there are two cookers in the dispenser. The cookers produce popcorn bags and place in the output bin. A robot arm picks it up from the output bin and places on the nearby table to be picked up by those who pass by. The robot arm can pick only one popcorn bag at a time.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Using Java, implement a producer-consumer based solution for this simulation. Your implementation must be multi-threaded. Assume that the data structures that you use do not have in-built concurrency handling ability. You should write a main method to demonstrate the important steps of the given scenario.When the robot arm picks a popcorn bag, a bell must ring, and a light has to blink. Communication between the robot arm, and the light and bell should be implemented using asynchronous event handling. Modify the class corresponding to robot arm to support this functionality and add classes corresponding to Bell and Light.
